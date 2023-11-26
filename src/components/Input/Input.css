@@ -1,0 +1,21 @@
+.input-custome {
+    background-color: #FFF;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.input-wrapper-component {
+    display: flex;    
+    gap: 10px;
+}
+
+.input-wrapper-component button {
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}

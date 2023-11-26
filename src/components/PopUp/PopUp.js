@@ -1,8 +1,8 @@
 import React from "react";
-import { Box, Dialog } from "@mui/material";
+import { Dialog } from "@mui/material";
+import { WarningImage, SuccessImage } from "../../assets/images";
 
-const PopUp = ({ isOpen, onClose, dialogText }) => {
-
+const PopUp = ({ isOpen, onClose, dialogText, type }) => {
   return (
     <React.Fragment>
       <Dialog
@@ -10,25 +10,50 @@ const PopUp = ({ isOpen, onClose, dialogText }) => {
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
       >
-        <Box
-          sx={{
+        <div
+          style={{
             backgroundColor: "#FFF",
-            width: "400px",
-            height: "300px",
+            width: "500px",
+            height: "500px",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
           }}
         >
-          <div style={{ textAlign: "center" }}>
-            <span style={{ fontSize: "25px" }}>{dialogText}</span>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: "20px",
+            }}
+          >
+            <img
+              src={type === 'failed' ? WarningImage : SuccessImage}
+              alt=""
+              style={{ width: "150px", height: "auto" }}
+            />
+            <span style={{ fontSize: "25px", fontWeight: "bold" }}>
+              {dialogText}
+            </span>
             <button
+              style={{
+                width: "100%",
+                padding: "15px",
+                border: "none",
+                borderRadius: "10px",
+                cursor: "pointer",
+                fontSize: "20px",
+                fontWeight: "bold",
+                backgroundColor: "#BAD7E9",
+              }}
               onClick={onClose}
             >
               OK!
             </button>
           </div>
-        </Box>
+        </div>
       </Dialog>
     </React.Fragment>
   );

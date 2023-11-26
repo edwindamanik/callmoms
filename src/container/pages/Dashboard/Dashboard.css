@@ -3,38 +3,77 @@
     font-weight: 600;
 }
 
-.gridArticleNews {
+#spaceArticle{
     margin-top: 20px;
-    display: flex;
-    gap: 10px;
+    width:100%;
+    height: 450px;
 }
 
-.gridArticleNews img {
+#large{
+    width:60%;
+    height: 430px;
+    float:left;
+    margin:10px;
+    border-radius: 10px;
+}
+
+#large img {
     width: 100%;
-    max-height: 100%;
+    height: 430px;
+    border-radius: 10px;
 }
 
-.landingImage {
-    width: 60%;
+.large-title-article {
     position: relative;
+    height: 430px;
+    cursor: pointer;
 }
 
-.landingImage .firstImageWrapper {
+.large-title-article p {
+    position: absolute;
+    background-color: rgba(115, 104, 104, 0.37);
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    bottom: 0;
+    padding: 20px;
     width: 100%;
-    background-color: red;
-    overflow: hidden;
+    border-radius: 0 0 10px 10px;
 }
 
-.sideImageWrapper {
-    width: 40%;
+.small{
+    width:30%;
+    height:130px;
+    float:left;
+    margin:10px;
     display: flex;
-    flex-direction: column;
     gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-.sideImageWrapper .nextImageWrapper {
+.small-image-article {
+    min-width: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.small-image-article img {
     width: 100%;
-    height: calc(100% / 3);
-    overflow: hidden;
-    background-color: blue;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.small p {
+    font-size: 16px;
+}
+
+.doctor-recommendation {
+    margin-top: 20px;
+}
+
+.doctor-cards-wrapper {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
 }

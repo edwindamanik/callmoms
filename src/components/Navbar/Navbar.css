@@ -7,10 +7,19 @@
     align-items: center;
     justify-content: flex-end;
     padding: 0 40px;
+    gap: 20px;
 }
 
-.navbarWrapper a {
+.navbarWrapper a, .navbarWrapper button{
     text-decoration: none;
     color: #000000;
     font-size: 18px;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+.navbarWrapper p {
+    font-weight: bold;
+    font-size: 20px;
 }

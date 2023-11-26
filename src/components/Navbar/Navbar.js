@@ -1,13 +1,14 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './Navbar.css'
+import React from "react";
+import "./Navbar.css";
+import { signOut } from "firebase/auth";
+import { auth } from "../../firebase";
 
 const Navbar = () => {
   return (
-    <div className='navbarWrapper'>
-        <Link to="/login">Login</Link>
+    <div className="navbarWrapper">
+      <button onClick={() => signOut(auth)}>Logout</button>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
