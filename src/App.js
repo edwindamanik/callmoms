@@ -5,7 +5,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import { Dashboard, Login, Register, NotFound, Chats } from "./container/pages";
+import { Dashboard, Login, Register, NotFound, Chats, Meditasi } from "./container/pages";
 import { AuthContext } from "./context/AuthContext";
 
 const App = () => {
@@ -33,6 +33,7 @@ const App = () => {
         <Route path="/chat" element={<Chats />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/meditation" element={<Meditasi />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

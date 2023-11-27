@@ -8,5 +8,6 @@ import Card from "./Card/Card";
 import Messages from "./Messages/Messages";
 import Message from './Message/Message'
 import Input from "./Input/Input";
+import Musics from "./Musics/Musics";
 
-export { CustomInput, Colors, Button, PopUp, Sidebar, Navbar, Card, Messages, Message, Input }
+export { CustomInput, Colors, Button, PopUp, Sidebar, Navbar, Card, Messages, Message, Input, Musics }

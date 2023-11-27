@@ -1,0 +1,31 @@
+.card-music {
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.image-music-wrapper {
+    width: 100%;
+}
+
+.image-music-wrapper img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.button-music-wrapper {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button-music-wrapper button {
+    padding: 15px;
+    border: none;
+    background-color: #6BA5C8;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 10px;
+}

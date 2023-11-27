@@ -3,5 +3,6 @@ import Dashboard from "./Dashboard/Dashboard";
 import Register from "./Register/Register";
 import NotFound from "./NotFound/NotFound";
 import Chats from './Chats/Chats'
+import Meditasi from "./Meditasi/Meditasi";
 
-export { Login, Dashboard, Register, NotFound, Chats }
+export { Login, Dashboard, Register, NotFound, Chats, Meditasi }

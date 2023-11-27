@@ -53,3 +53,7 @@
 .contentSidebar ul li a:hover {
     background-color: #BAD6EA;
 }
+
+.dropdown-menu {
+    padding-left: 40px;
+}

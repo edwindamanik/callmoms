@@ -8,5 +8,6 @@ import DoctorVector from './doctor-vector.png'
 import SuccessImage from './success.png';
 import WarningImage from './warning.png'
 import DoctorProfile from './doctor-profile.png'
+import MeditationImage from './meditation-image.jpg'
 
-export { Image1, Image2, Image3, Image4, Image5, MomVector, DoctorVector, SuccessImage, WarningImage, DoctorProfile };
+export { Image1, Image2, Image3, Image4, Image5, MomVector, DoctorVector, SuccessImage, WarningImage, DoctorProfile, MeditationImage };
