@@ -23,6 +23,7 @@ const Message = ({ message }) => {
             : "message-wrapper-reciever"
         }`}
       >
+        <span className="username-top">{message.email}</span>
         {message.text}
       </div>
     </div>

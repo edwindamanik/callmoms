@@ -4,6 +4,10 @@
     padding: 10px;
     border-radius: 10px;
     margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 10px;
 }
 
 .message-wrapper-reciever {
@@ -11,4 +15,13 @@
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}
+
+.username-top {
+    font-size: 15px;
+    font-weight: bold;
 }

@@ -17,7 +17,7 @@ const Forum = () => {
       await updateDoc(doc(db, "forum", "DflfkKfNoV4Qiqy7dpsi"), {
         messages: arrayUnion({
           id: uuid(),
-          name: currentUser.displayName,
+          email: currentUser.email,
           text,
           senderId: currentUser.uid,
           date: Timestamp.now(),
