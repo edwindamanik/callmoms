@@ -59,8 +59,8 @@ const Sidebar = () => {
             to="#"
             label="Layanan Khusus"
             dropdownItems={[
-              { to: '/konsultasi-online', label: 'Konsultasi Online' },
-              { to: '/forum-diskusi', label: 'Forum Diskusi' },
+              { to: '#', label: 'Konsultasi Online' },
+              { to: '/forum-discussion', label: 'Forum Diskusi' },
               { to: '/meditation', label: 'Meditasi' },
             ]}
           />

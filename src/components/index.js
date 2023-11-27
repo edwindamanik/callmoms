@@ -9,5 +9,6 @@ import Messages from "./Messages/Messages";
 import Message from './Message/Message'
 import Input from "./Input/Input";
 import Musics from "./Musics/Musics";
+import DiscussionMessages from "./DiscussionMessages/DiscussionMessages";
 
-export { CustomInput, Colors, Button, PopUp, Sidebar, Navbar, Card, Messages, Message, Input, Musics }
+export { CustomInput, Colors, Button, PopUp, Sidebar, Navbar, Card, Messages, Message, Input, Musics, DiscussionMessages }
